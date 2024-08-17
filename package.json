@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.633.0",
+    "exceljs": "^4.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
-    "react-spreadsheet": "^0.9.5"
+    "react-spreadsheet": "^0.9.5",
+    "read-excel-file": "^5.8.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",

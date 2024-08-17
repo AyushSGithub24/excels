@@ -23,11 +23,9 @@ export const Home = () => {
     [{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}],
     [{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}],
     [{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}, {value: ""},{value: ""}]
-   
   ]);
   return (
     <div>
-      
       <Spreadsheet data={data} onChange={setData} />
     </div>
   )
