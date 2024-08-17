@@ -1,0 +1,28 @@
+/* Container to ensure spreadsheet is scrollable */
+.spreadsheet-container {
+    overflow-x: auto;
+    width: 100%;
+}
+
+/* Default cell styling */
+.spreadsheet-cell {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Adjust the cells on smaller screens */
+@media screen and (max-width: 768px) {
+    .spreadsheet-cell {
+        padding: 6px;
+        font-size: 12px;
+    }
+}
+
+/* Adjust even more on very small screens */
+@media screen and (max-width: 480px) {
+    .spreadsheet-cell {
+        padding: 4px;
+        font-size: 10px;
+    }
+}
